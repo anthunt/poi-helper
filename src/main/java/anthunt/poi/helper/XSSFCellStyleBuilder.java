@@ -22,8 +22,9 @@ class XSSFCellStyleBuilder
     xssfCellStyle.setAlignment(xssfCellStyleModel.getHorizontalAlignment());
     xssfCellStyle.setVerticalAlignment(xssfCellStyleModel.getVerticalAlignment());
     xssfCellStyle.setFont(xssfCellStyleModel.getFont());
-    if (xssfCellStyleModel.getFillPattern() != null) {
-      xssfCellStyle.setFillPattern(xssfCellStyleModel.getFillPattern().shortValue());
+    if (xssfCellStyleModel.getFillPatternType() != null) {
+//      xssfCellStyle.setFillPattern(xssfCellStyleModel.getFillPattern().shortValue());
+      xssfCellStyle.setFillPattern(xssfCellStyleModel.getFillPatternType());
     }
     if (xssfCellStyleModel.getFillForegroundColor() != null) {
       xssfCellStyle.setFillForegroundColor(xssfCellStyleModel.getFillForegroundColor());

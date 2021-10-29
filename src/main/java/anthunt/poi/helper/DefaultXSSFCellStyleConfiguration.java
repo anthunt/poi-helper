@@ -1,6 +1,7 @@
 package anthunt.poi.helper;
 
 import org.apache.poi.ss.usermodel.BorderStyle;
+import org.apache.poi.ss.usermodel.FillPatternType;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
 import org.apache.poi.ss.usermodel.VerticalAlignment;
 
@@ -64,7 +65,7 @@ public class DefaultXSSFCellStyleConfiguration
     hilightBoldCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     hilightBoldCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     hilightBoldCellStyleModel.setFontGenerator(XSSFFonts.BOLD_FONT);
-    hilightBoldCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    hilightBoldCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     hilightBoldCellStyleModel.setFillForegroundColor(XSSFColors.BROWN_COLOR.getXSSFColor());
     return hilightBoldCellStyleModel;
   }
@@ -78,7 +79,7 @@ public class DefaultXSSFCellStyleConfiguration
     hilightBoldLeftThinCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     hilightBoldLeftThinCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     hilightBoldLeftThinCellStyleModel.setFontGenerator(XSSFFonts.BOLD_FONT);
-    hilightBoldLeftThinCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    hilightBoldLeftThinCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     hilightBoldLeftThinCellStyleModel.setFillForegroundColor(XSSFColors.BROWN_COLOR.getXSSFColor());
     return hilightBoldLeftThinCellStyleModel;
   }
@@ -92,7 +93,7 @@ public class DefaultXSSFCellStyleConfiguration
     hilightBoldRightThinCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     hilightBoldRightThinCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     hilightBoldRightThinCellStyleModel.setFontGenerator(XSSFFonts.BOLD_FONT);
-    hilightBoldRightThinCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    hilightBoldRightThinCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     hilightBoldRightThinCellStyleModel.setFillForegroundColor(XSSFColors.BROWN_COLOR.getXSSFColor());
     return hilightBoldRightThinCellStyleModel;
   }
@@ -106,7 +107,7 @@ public class DefaultXSSFCellStyleConfiguration
     firstHeaderCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     firstHeaderCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     firstHeaderCellStyleModel.setFontGenerator(XSSFFonts.HEADER_FONT);
-    firstHeaderCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    firstHeaderCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     firstHeaderCellStyleModel.setFillForegroundColor(XSSFColors.HEAD_COLOR.getXSSFColor());
     return firstHeaderCellStyleModel;
   }
@@ -120,7 +121,7 @@ public class DefaultXSSFCellStyleConfiguration
     firstHeaderLeftThinCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     firstHeaderLeftThinCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     firstHeaderLeftThinCellStyleModel.setFontGenerator(XSSFFonts.HEADER_FONT);
-    firstHeaderLeftThinCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    firstHeaderLeftThinCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     firstHeaderLeftThinCellStyleModel.setFillForegroundColor(XSSFColors.HEAD_COLOR.getXSSFColor());
     return firstHeaderLeftThinCellStyleModel;
   }
@@ -134,7 +135,7 @@ public class DefaultXSSFCellStyleConfiguration
     firstHeaderRightThinCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     firstHeaderRightThinCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     firstHeaderRightThinCellStyleModel.setFontGenerator(XSSFFonts.HEADER_FONT);
-    firstHeaderRightThinCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    firstHeaderRightThinCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     firstHeaderRightThinCellStyleModel.setFillForegroundColor(XSSFColors.HEAD_COLOR.getXSSFColor());
     return firstHeaderRightThinCellStyleModel;
   }
@@ -148,7 +149,7 @@ public class DefaultXSSFCellStyleConfiguration
     secondHeaderCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     secondHeaderCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     secondHeaderCellStyleModel.setFontGenerator(XSSFFonts.BOLD_WHITE_FONT);
-    secondHeaderCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    secondHeaderCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     secondHeaderCellStyleModel.setFillForegroundColor(XSSFColors.SUB_HEAD_COLOR.getXSSFColor());
     return secondHeaderCellStyleModel;
   }
@@ -162,7 +163,7 @@ public class DefaultXSSFCellStyleConfiguration
     secondHeaderLeftThinCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     secondHeaderLeftThinCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     secondHeaderLeftThinCellStyleModel.setFontGenerator(XSSFFonts.BOLD_WHITE_FONT);
-    secondHeaderLeftThinCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    secondHeaderLeftThinCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     secondHeaderLeftThinCellStyleModel.setFillForegroundColor(XSSFColors.SUB_HEAD_COLOR.getXSSFColor());
     return secondHeaderLeftThinCellStyleModel;
   }
@@ -176,7 +177,7 @@ public class DefaultXSSFCellStyleConfiguration
     secondHeaderRightThinCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     secondHeaderRightThinCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     secondHeaderRightThinCellStyleModel.setFontGenerator(XSSFFonts.BOLD_WHITE_FONT);
-    secondHeaderRightThinCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    secondHeaderRightThinCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     secondHeaderRightThinCellStyleModel.setFillForegroundColor(XSSFColors.SUB_HEAD_COLOR.getXSSFColor());
     return secondHeaderRightThinCellStyleModel;
   }
@@ -190,7 +191,7 @@ public class DefaultXSSFCellStyleConfiguration
     thirdHeaderCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     thirdHeaderCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     thirdHeaderCellStyleModel.setFontGenerator(XSSFFonts.DEFAULT_FONT);
-    thirdHeaderCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    thirdHeaderCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     thirdHeaderCellStyleModel.setFillForegroundColor(XSSFColors.SECOND_SUB_HEAD_COLOR.getXSSFColor());
     return thirdHeaderCellStyleModel;
   }
@@ -204,7 +205,7 @@ public class DefaultXSSFCellStyleConfiguration
     thirdHeaderLeftThinCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     thirdHeaderLeftThinCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     thirdHeaderLeftThinCellStyleModel.setFontGenerator(XSSFFonts.DEFAULT_FONT);
-    thirdHeaderLeftThinCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    thirdHeaderLeftThinCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     thirdHeaderLeftThinCellStyleModel.setFillForegroundColor(XSSFColors.SECOND_SUB_HEAD_COLOR.getXSSFColor());
     return thirdHeaderLeftThinCellStyleModel;
   }
@@ -218,7 +219,7 @@ public class DefaultXSSFCellStyleConfiguration
     thirdHeaderRightThinCellStyleModel.setHorizontalAlignment(HorizontalAlignment.CENTER);
     thirdHeaderRightThinCellStyleModel.setVerticalAlignment(VerticalAlignment.TOP);
     thirdHeaderRightThinCellStyleModel.setFontGenerator(XSSFFonts.DEFAULT_FONT);
-    thirdHeaderRightThinCellStyleModel.setFillPattern(Short.valueOf((short)1));
+    thirdHeaderRightThinCellStyleModel.setFillPatternType(FillPatternType.NO_FILL);
     thirdHeaderRightThinCellStyleModel.setFillForegroundColor(XSSFColors.SECOND_SUB_HEAD_COLOR.getXSSFColor());
     return thirdHeaderRightThinCellStyleModel;
   }

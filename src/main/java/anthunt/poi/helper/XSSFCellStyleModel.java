@@ -1,6 +1,7 @@
 package anthunt.poi.helper;
 
 import org.apache.poi.ss.usermodel.BorderStyle;
+import org.apache.poi.ss.usermodel.FillPatternType;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
 import org.apache.poi.ss.usermodel.VerticalAlignment;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
@@ -17,7 +18,7 @@ public class XSSFCellStyleModel
   private VerticalAlignment verticalAlignment;
   private XSSFFonts fontGenerator;
   private XSSFFont font;
-  private Short fillPattern;
+  private FillPatternType fillPatternType;
   private XSSFColor fillForegroundColor;
   private XSSFCellStyle xssfCellStyle;
   
@@ -101,14 +102,14 @@ public class XSSFCellStyleModel
     this.font = font;
   }
   
-  public Short getFillPattern()
+  public FillPatternType getFillPatternType()
   {
-    return this.fillPattern;
+    return this.fillPatternType;
   }
   
-  public void setFillPattern(Short fillPattern)
+  public void setFillPatternType(FillPatternType fillPatternType)
   {
-    this.fillPattern = fillPattern;
+    this.fillPatternType = fillPatternType;
   }
   
   public XSSFColor getFillForegroundColor()
