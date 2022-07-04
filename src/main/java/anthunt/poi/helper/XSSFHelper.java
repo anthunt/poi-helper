@@ -171,9 +171,9 @@ public class XSSFHelper
     {
       XSSFCell cell = row.getCell(iCol);
       XSSFCellStyle cellStyle = cell.getCellStyle();
-      if (BorderStyle.THIN == cellStyle.getBorderLeftEnum()) {
+      if (BorderStyle.THIN == cellStyle.getBorderLeft()) {
         cell.setCellStyle(getXSSFCellStyles().SUB_LAST_ROW_LEFT_THIN);
-      } else if (BorderStyle.THIN == cellStyle.getBorderRightEnum()) {
+      } else if (BorderStyle.THIN == cellStyle.getBorderRight()) {
         cell.setCellStyle(getXSSFCellStyles().SUB_LAST_ROW_RIGHT_THIN);
       } else {
         cell.setCellStyle(getXSSFCellStyles().SUB_LAST_ROW);

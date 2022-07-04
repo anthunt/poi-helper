@@ -4,15 +4,15 @@
 
   <groupId>anthunt.poi</groupId>
   <artifactId>poi-helper</artifactId>
-  <version>2.0.1-RELEASE</version>
+  <version>2.1.1-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>poi-helper</name>
   
   <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <poi.version>4.1.2</poi.version>
+        <java.version>11</java.version>
+        <poi.version>5.2.1</poi.version>
     </properties>
 
 	<distributionManagement>
@@ -43,7 +43,7 @@
 			<dependency>
 			    <groupId>org.apache.poi</groupId>
 			    <artifactId>poi-ooxml-schemas</artifactId>
-			    <version>${poi.version}</version>
+			    <version>4.1.2</version>
 			</dependency>
 			
 			<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
@@ -107,7 +107,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
+				<version>3.10.0</version>
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>

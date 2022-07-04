@@ -10,7 +10,7 @@ public enum XSSFFonts
   ,  BOLD_FONT(true, "맑은 고딕", IndexedColors.BLACK.getIndex(), (short)9)
   ,  BOLD_WHITE_FONT(true, "맑은 고딕", IndexedColors.WHITE.getIndex(), (short)9)
   ,  HEADER_FONT(true, "맑은 고딕", IndexedColors.WHITE.getIndex(), (short)10);
-  
+
   private boolean isBold;
   private String fontName;
   private short color;
