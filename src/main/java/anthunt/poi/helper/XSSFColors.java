@@ -14,7 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFColor;
   
   private XSSFColors(int R, int G, int B)
   {
-    this.xssfColor = new XSSFColor(new Color(R, G, B));
+    this.xssfColor = new XSSFColor(new byte[]{(byte)R,(byte)G,(byte)B}, null);
   }
   
   protected XSSFColor getXSSFColor()
